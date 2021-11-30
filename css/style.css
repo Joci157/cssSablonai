@@ -1,0 +1,42 @@
+
+.container{
+	background-color: #eee;
+	width: 80%;
+ 	margin: 0 auto;
+ 	height: 500px;
+ 	position: relative;
+}
+.container div{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+}
+.container div:nth-child(1){
+	background-color: #eeff99;
+	top: 0;
+	left: 0;
+}
+.container div:nth-child(2){
+	background-color: #ddff99;
+	top: 0;
+	right: 0;
+
+}
+.container div:nth-child(3){
+	background-color: #ddff88;
+	bottom: 0;
+	left: 0;
+}
+.container div:nth-child(4){
+	background-color: #aaff77;
+	bottom: 0;
+	right: 0;
+}
+.container div:nth-child(5){
+	background-color: #eebb99;
+	left: 40%;
+	top: 30%;
+}
